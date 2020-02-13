@@ -9,7 +9,6 @@ namespace EasyInputVR.StandardControllers
     [AddComponentMenu("EasyInputGearVR/Standard Controllers/StandardPointerReceiver")]
     public class StandardPointerReceiver : StandardBaseReceiver
     {
-
         //events
         [System.Serializable]
         public class HitHandler : UnityEvent<Vector3> { }
